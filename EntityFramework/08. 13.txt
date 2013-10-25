@@ -1,0 +1,2 @@
+08. TerritoryAccess.cs in EntityFramework.Data
+13. http://entityframework.codeplex.com/SourceControl/latest#src/EntityFramework.SqlServer/SqlSpatialDataReader.cs

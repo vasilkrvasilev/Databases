@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<list>
+  <person>
+    <name>Ivan Ivanov</name>
+    <address>Lulin Sofia</address>
+    <phone>0888888888</phone>
+  </person>
+  <person>
+    <name>Tosho Milev</name>
+    <address>Vladislavovo Varna</address>
+    <phone>0899999999</phone>
+  </person>
+  <person>
+    <name>Mimi Kaleva</name>
+    <address>Trakia Plovdiv</address>
+    <phone>0877777777</phone>
+  </person>
+</list>

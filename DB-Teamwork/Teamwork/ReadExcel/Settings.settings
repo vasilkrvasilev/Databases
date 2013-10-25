@@ -1,0 +1,20 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Document_IO_Operations" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="zipString" Type="System.String" Scope="User">
+      <Value Profile="(Default)">../../../../ReadingFiles/Sample-Sales-Reports.zip</Value>
+    </Setting>
+    <Setting Name="extractString" Type="System.String" Scope="User">
+      <Value Profile="(Default)">../../../../WritingFiles/Sample-Sales-Reports</Value>
+    </Setting>
+    <Setting Name="sqlConnection" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Server=192.168.193.25\SQLExpress;Database=Supermarket;User Id=student;
+Password=student;</Value>
+    </Setting>
+    <Setting Name="excelString" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Provider=Microsoft.ACE.OLEDB.12.0;Data Source={0};
+Extended Properties="Excel 8.0;HDR=YES";</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

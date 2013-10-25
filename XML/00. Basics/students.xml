@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="library-xml2html.xsl"?>
+<student-system name="Telerik Academy" 
+                xmlns:telerik="urn:telerik-com"               
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<telerik:student>
+		<telerik:student-name>Ivan Ivanov</telerik:student-name>
+		<telerik:sex>Male</telerik:sex>
+		<telerik:birth-date format="yyyy-MM-dd">1990-01-01</telerik:birth-date>
+    <telerik:phone>0888888888</telerik:phone>
+		<telerik:email>ii@gmail.com</telerik:email>
+		<telerik:course>DataBase</telerik:course>
+    <telerik:specialty>IT</telerik:specialty>
+		<telerik:faculty-number>111111</telerik:faculty-number>
+		<telerik:exam>
+      <telerik:exam-name>C#</telerik:exam-name>
+      <telerik:tutor>Tutor</telerik:tutor>
+		  <telerik:score>50</telerik:score>
+    </telerik:exam>
+    <telerik:exam>
+      <telerik:exam-name>JS</telerik:exam-name>
+      <telerik:tutor>Other Tutor</telerik:tutor>
+		  <telerik:score>50</telerik:score>
+    </telerik:exam>
+	</telerik:student>
+	<telerik:student>
+		<telerik:student-name>Maria Marinova</telerik:student-name>
+		<telerik:sex>Female</telerik:sex>
+		<telerik:birth-date format="yyyy-MM-dd">1990-12-12</telerik:birth-date>
+    <telerik:phone>0899999999</telerik:phone>
+		<telerik:email>mm@gmail.com</telerik:email>
+		<telerik:course>CSS</telerik:course>
+    <telerik:specialty>Web</telerik:specialty>
+		<telerik:faculty-number>333333</telerik:faculty-number>
+		<telerik:exam>
+      <telerik:exam-name>HTML</telerik:exam-name>
+      <telerik:tutor>Same Tutor</telerik:tutor>
+		  <telerik:score>100</telerik:score>
+    </telerik:exam>
+	</telerik:student>
+</student-system>

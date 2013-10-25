@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<catalogue>
+  <album>
+    <name>Album</name>
+    <artist>Singer</artist>
+    <year>2012</year>
+    <producer>P</producer>
+    <price>10.39</price>
+    <song>
+      <title>Song</title>
+      <doration>4.03</doration>
+    </song>
+    <song>
+      <title>Not Song</title>
+      <doration>2.15</doration>
+    </song>
+  </album>
+  <album>
+    <name>Not Album</name>
+    <artist>Not Singer</artist>
+    <year>2020</year>
+    <producer>NP</producer>
+    <price>0.00</price>
+    <song>
+      <title>Something</title>
+      <doration>45.03</doration>
+    </song>
+  </album>
+</catalogue>

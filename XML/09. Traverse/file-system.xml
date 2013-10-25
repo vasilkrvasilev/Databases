@@ -1,0 +1,1 @@
+﻿<?xml version="1.0" encoding="utf-8"?><file-system><dir><name>release</name><file>redisbin.zip</file><file>redisbin64.zip</file><dir><name>redisbin</name><file>dump.rdb</file><file>redis-benchmark.exe</file><file>redis-check-aof.exe</file><file>redis-check-dump.exe</file><file>redis-cli.exe</file><file>redis-server.exe</file></dir></dir></file-system>

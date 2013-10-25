@@ -1,0 +1,21 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Bookstore.Data" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="simpleImportFile" Type="System.String" Scope="User">
+      <Value Profile="(Default)">../../simple-books.xml</Value>
+    </Setting>
+    <Setting Name="complexImportFile" Type="System.String" Scope="User">
+      <Value Profile="(Default)">../../complex-books.xml</Value>
+    </Setting>
+    <Setting Name="complexSearchWriteFile" Type="System.String" Scope="User">
+      <Value Profile="(Default)">../../reviews-search-results.xml</Value>
+    </Setting>
+    <Setting Name="complexSearchReadFile" Type="System.String" Scope="User">
+      <Value Profile="(Default)">../../reviews-queries.xml</Value>
+    </Setting>
+    <Setting Name="simpleSearchFile" Type="System.String" Scope="User">
+      <Value Profile="(Default)">../../simple-query.xml</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

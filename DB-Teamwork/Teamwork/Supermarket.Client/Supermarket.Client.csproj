@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DB5D0D23-7564-497A-BFB5-7A085C490453}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Supermarket.Client</RootNamespace>
+    <AssemblyName>Supermarket.Client</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\EntityFramework.5.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Telerik.OpenAccess, Version=2013.2.702.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.OpenAccess.35.Extensions, Version=2013.2.702.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342, processorArchitecture=MSIL" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Bridge\OpenAccess-EF-Bridge.csproj">
+      <Project>{d7389e1a-c4b9-416f-b33e-4d0a61707753}</Project>
+      <Name>OpenAccess-EF-Bridge</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Document-Initializer\Document-Initializer.csproj">
+      <Project>{c98f62d6-6ae3-4108-94b4-6ebde0d81ba8}</Project>
+      <Name>Document-Initializer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MySqlSupermarket.Data\MySqlSupermarket.Data.csproj">
+      <Project>{c50145e6-a244-4f1f-b41f-90d1925b4a00}</Project>
+      <Name>MySqlSupermarket.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ReadExcel\Document-IO-Operations.csproj">
+      <Project>{6122833e-d844-425c-8ac1-a4c775b069cb}</Project>
+      <Name>Document-IO-Operations</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SQL-Mongo-Bridge\SQL-Mongo-Bridge.csproj">
+      <Project>{08438d4b-2786-4a2b-a2a9-dbc999a3c66c}</Project>
+      <Name>SQL-Mongo-Bridge</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SQLite-Mongo-Bridge\SQLite-Mongo-Bridge.csproj">
+      <Project>{6a9e7ca7-4470-4d0b-bd03-689b405fa212}</Project>
+      <Name>SQLite-Mongo-Bridge</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Supermarket.EF.Data\Supermarket.EF.Data.csproj">
+      <Project>{ee43797c-8b4d-4d71-8d1d-06d0ed4607a4}</Project>
+      <Name>Supermarket.EF.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SupermarketEntiies\SupermarketEntiies.csproj">
+      <Project>{00415b66-f5a6-44d8-8bb3-938382e515ae}</Project>
+      <Name>SupermarketEntiies</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
